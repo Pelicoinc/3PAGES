@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+/* Mobile Styles */
+body {
+    font-family: sans-serif;
+    background-color: blueviolet;
+}
+/* Desktop-only sttyles */
+@media (min-width: 40rem) {
+    /* Desktop style go here */
+    body {
+        background-color: yellow;
+    }
+}
+
+.section--page {
+    min-height: 55vh;
+    padding: 2rem 1rem 1rem;
+    background-color: aquamarine;
+}
+.section--page:nth-of-type(odd) {
+    background: greenyellow;
+}
+.nav {
+    padding: 0;
+}
+.nav__item {
+    list-style:none;
+    display: inline-block;
+    background-color: red;
+    padding: 10px;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgb(4, 4, 14);
+}
+.nav__link {
+    padding: 1rem; 
+    text-decoration: none;  
+}
+.nav__link:hover {
+    color: white;
+}
+body {
+    font-family: Roboto, sans-serif;
+}
+.section--page {
+    font-size: 2rem;
+    color:skyblue;
+    font-family: 'Silkscreen', cursive;
+}
+p {
+    color: black;
+    font-family: sans-serif;
+}
+.back-to-top-button {
+    background-color: red;
+    text-decoration: none;
+    padding: 10px;
+    margin: 1rem;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgb(4, 4, 14);
+}
+#title {
+    color: aquamarine;
+    font-family: 'Silkscreen', cursive;
+}
+.title-pic {
+    max-width: 100%;
+}
+img {
+    max-width: 200px;
+}
+.hovering:hover {
+    color: crimson;
+    font-style: italic;
+}
+.breed-img {
+    float: left;
+}
+.facts-img {
+    float: right;
+}
